@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Checklist Operador de Caldeira</title>
+</head>
+<body>
+  <h1>Checklist Operador de Caldeira</h1>
+  
+  <div id="checklist">
+    <label><input type="checkbox" id="limpeza">Retirar agua do pulmão</label>
+    <label><input type="checkbox" id="nivelagua">Verificar nível da água</label>
+    <label><input type="checkbox" id="pressao">Verificar pressão</label>
+    <label><input type="checkbox" id="funcionamento">Testar funcionamento da Bomba d'água</label>
+    <label><input type="checkbox" id="seguranca">Verificar segurança parafusos</label>
+    <label><input type="checkbox" id="bomba">Verificar se a bomba do poço esta desligada</label>
+    
+    <button id="submitChecklist">Enviar Checklist</button>
+  </div>
+  
+  <article class="perguntas">
+    <div>
+      <h1>Algumas dúvidas</h1>
+      <div class="pergunta">
+        O que fazer caso a bomba da caldeira nao funcionar? 
+        <img src="/img/3092902-seta-para-baixo-icone-de-glifo-preto-vetor.jpg" alt="" class="rotated" id="imgun">
+      </div>
+      <div class="resposta">
+        Crie um vaco na bomba, depois solte a agua no vaco para que puche a sujeira e limpe os discos,<br>
+        caso nao funcionar? Voce devera conectar a bomba do poço com a pressao da outra bomba com a,<br>
+        mangueira para empurrar a sujeira.
+      </div>
+      
+      <div class="pergunta">
+        O que fazer caso a luz acabe e nao consiga jogar agua para a caldeira? 
+        <img src="/img/3092902-seta-para-baixo-icone-de-glifo-preto-vetor.jpg" alt="" class="rotated" id="imgun">
+      </div>
+      <div class="resposta">
+        Feche a valvula da bomba da agua, abre a valvula da agua e vapor e feche a injetora assim mandara<br>
+        agua para a caldeira.
+      </div>
+      
+      <div class="pergunta">
+        O que fazer caso a caldeira esteja com muita pressao e as maquinas nao estejam funcionando?
+        <img src="/img/3092902-seta-para-baixo-icone-de-glifo-preto-vetor.jpg" alt="" class="rotated" id="imgun">
+      </div>
+      <div class="resposta">
+        Dê uma descarga de fundo, vai abaixar a agua no visor de nivel, após essa açao jogue agua para dentro<br>
+        da caleira novamente, vai abaixar a caldeira.
+      </div>
+    </div>
+  </article>
+
+  <h1>Exemplos</h1>
+  <div class="container">
+    <div class="buttons">
+      <button data-image="/img/imgex/img1.jpg">Garrafa e visor de nivel</button>
+      <button data-image="/img/imgex/img2.jpg">Descarga de fundo</button>
+      <button data-image="/img/imgex/img3.jpg">Caixa de agua e pulmão</button>
+      <button data-image="/img/imgex/img4.jpg">Bomba de agua</button>
+      <button data-image="/img/img5.jpg">Injetora</button>
+      <button data-image="/img/img6.jpg">Injetora fechada</button>
+      <button data-image="/img/img7.jpg">Injetora aberta</button>
+    </div>
+    <iframe id="imageFrame"></iframe>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
